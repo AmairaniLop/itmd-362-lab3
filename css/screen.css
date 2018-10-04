@@ -257,7 +257,23 @@ input {
   line-height: 1.182em;
 }
 
-/* ===== MODULAR STYLES ===== */
 
 /* ===== STATE STYLES ======= */
+/*.hasjs class will only exist if javascript runs*/
+.hasjs #input-email {
+  position: relative;
+}
+.hasjs #input-email label {
+  transition: top 1s;
+  top: 26px;
+  left: 20px;
+}
 
+.hasjs #input-email label.active {
+  top: -10px;
+}
+
+.hasjs #age-verification {
+  position: static;
+  left: 6000px;
+}
