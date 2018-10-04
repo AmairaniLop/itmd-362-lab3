@@ -197,7 +197,6 @@ html {
   padding: 1.182em; /* 26px / ~ 120% */
   font-family: 'Share Tech','Roboto Condensed', sans-serif;
   text-align: center;
-  text-rendering: optimizeLegibility;
 }
 
 label {
@@ -214,6 +213,8 @@ h1{
 
 p {
   text-align: center;
+  width: 90%;
+  padding: 1.182em;
 }
 
 /* ===== LAYOUT STYLES ====== */
