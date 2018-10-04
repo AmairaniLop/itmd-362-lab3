@@ -217,7 +217,45 @@ p {
 }
 
 /* ===== LAYOUT STYLES ====== */
+input {
+  box-sizing: border-box;
+  width: 90%;
+  height: 50px;
+  padding: 1.182em;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  background-color: gray;
+}
 
+#input-submit {
+  font-size: 1.375em; /* 22px */
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  padding: 1.182em; /* 26px / ~ 120% */
+  background-color: white;
+}
+
+#input-email {
+  font-size: 1.375em; /* 22px */
+  color: white;
+  line-height: 1.182em; /* 26px / ~ 120% */
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  padding: 1.182em; /* 26px / ~ 120% */
+  background-color: black;
+}
+
+#input-age-verification {
+  font-size: 1.375em; /* 22px */
+  font-weight: bold;
+  padding: 1.182em; /* 26px / ~ 120% */
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 1.182em;
+}
 
 /* ===== MODULAR STYLES ===== */
 
